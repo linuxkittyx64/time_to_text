@@ -1,5 +1,9 @@
-Time To Text
+Time To Text 
 ============
-Time to text is a program that reads input in the format of HH:MM and then reads it back to you in text. 
+2_variables
 
-For example, if you input "05:02", your output should be "The time is five hours and two minutes."
+This is a version of the code that uses two variables. One for hours, and one for minutes.
+HH:MM
+
+hours are HH 
+minutes are MM
