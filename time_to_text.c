@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int hours,minutes;
+	char hours="0",minutes="0";
 	
 	char nums[59];
 	nums[0]="zero";
@@ -71,6 +71,8 @@ int main(void)
 	
 	if (hours==1){
 		printf("The time is %d hour and %d minutes.",nums[hours],nums[minutes]);
+	else if (hours==1 || minutes=1)
+		printf("The time is %d hour and %d minute.",nums[hours],nums[minutes]);
 	else
 		printf("The time is %d hours and %d minutes.",nums[hours],nums[minutes]);
 	}
